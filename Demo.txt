@@ -1,0 +1,10 @@
+CREATE TABLE NhanVien (
+  STT INTEGER,
+  PhongBan VARCHAR(3),
+  MaNhanVien VARCHAR(30),
+  HoTenNhanVien VARCHAR(30),
+  Chucvu VARCHAR(30),
+  NguoiQuanLi VARCHAR(30),
+  NgaySinh DATE
+)
+DROP TABLE NhanVien
